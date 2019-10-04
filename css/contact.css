@@ -1,0 +1,212 @@
+h1 {
+	font-size: 56px;
+	color: #056380;
+}
+
+h2 {
+	font-size: 36px;
+	color: #31A7CC;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	margin:0;
+	overflow-x: hidden;
+	background-image: radial-gradient(#c2b280,#e1d9c7);
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #B08D57;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #003A66;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+*{
+	font-family: times;
+}
+@font-face{
+	font-family: times;
+	src: url(fonts/times-new-roman.ttf);
+}
+
+.navbar a:hover {
+  background: #5689B0;
+  color: #E3DBCF;
+}
+
+.main {
+  margin-top: 30px;
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  justify-content: center;
+  align-content: center;
+}
+
+.titlebar {
+	height: 10%;
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	align-content: center;
+	margin-bottom: 10px;
+}
+
+.content1 {
+	height: 45%;
+	width:100%;
+	display: flex;
+}
+.content2 {
+	height: 45%;
+	width:100%;
+	display: flex;
+}
+.person {
+	height: 100%;
+	width: 50%;
+	display: block;
+	margin: 20px;
+}
+
+.pfp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:90%;
+	width: 100%;
+	margin: 20px;
+}
+.text {
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	text-align: center;
+	height:10%;
+	width: 100%;
+}
+p {
+	padding:0px;
+	margin: 0px; 
+}
+.rotate {
+  transform: rotate(90deg);
+}
+
+img {
+	border-radius: 3%;
+}
+
+.restrict-img {
+	max-height: 50%;
+	max-width: 50%;
+}
+
+.img-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 410px) {
+	h1 {
+	font-size: 36px;
+	color: #056380;
+}
+
+h2 {
+	font-size: 22px;
+	color: #31A7CC;
+}
+
+body {
+	margin:0;
+	padding: 0;
+	background-image: radial-gradient(#c2b280,#e1d9c7);
+	max-height:812px;
+	max-width: 375px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #B08D57;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #003A66;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  background: #5689B0;
+  color: #E3DBCF;
+}
+
+.main {
+  margin-top: 30px;
+  height: 90%; /* Used in this example to enable scrolling */
+  display: block;
+}
+
+.titlebar {
+	height: 10%;
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+}
+
+@media only screen and (max-width: 546px) {
+	h1 {
+	font-size: 34px;
+	color: #056380;
+}
+}
+
+@media only screen and (max-width: 374px) {
+	h1 {
+	font-size: 32px;
+	color: #056380;
+}
+
+h2 {
+	font-size: 18px;
+	color: #31A7CC;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #003A66;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+}
+}
